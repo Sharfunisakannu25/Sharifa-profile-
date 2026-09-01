@@ -69,5 +69,3 @@ ng build         # production build to dist/
 - No gradient banners, bento grids, glow effects, or drop shadows (except deck cards)
 - Reduced-motion renders the finished page without animation
 - No invented press quotes, chart positions, streaming counts, or award badges
-
-# Sharifa-profile-
