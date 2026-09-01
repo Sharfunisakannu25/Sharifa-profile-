@@ -10,7 +10,7 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     <section class="hero" #heroSection>
       <div class="hero__stage">
         <div class="hero__image-layer" [style.transform]="imageTransform()">
-          <div class="hero__image-placeholder"></div>
+          <img src="/hero-creative-workspace.jpg" alt="Sharifa — AI Video Editor at work, dual-monitor editing setup with timeline" class="hero__image" loading="eager" decoding="async" />
         </div>
         <div class="hero__duotone" [style.opacity]="duotoneOpacity()"></div>
         <div class="hero__veil"></div>
@@ -57,22 +57,16 @@ import { PortfolioService } from '../../core/services/portfolio.service';
       position: absolute;
       inset: -10%;
       will-change: transform;
+      background: #0A0C0E;
     }
 
-    .hero__image-placeholder {
+    .hero__image {
       width: 100%;
       height: 100%;
-      background: linear-gradient(135deg, #1a1520 0%, #0f1418 40%, #141820 70%, #1a1614 100%);
-      position: relative;
-    }
-
-    .hero__image-placeholder::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(ellipse at 30% 40%, rgba(46, 107, 114, 0.15) 0%, transparent 60%),
-        radial-gradient(ellipse at 70% 60%, rgba(232, 145, 60, 0.12) 0%, transparent 50%);
+      object-fit: cover;
+      object-position: center 35%;
+      display: block;
+      filter: saturate(0.85) contrast(1.05);
     }
 
     .hero__duotone {

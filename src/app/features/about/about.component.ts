@@ -85,15 +85,26 @@ import { PortfolioService } from '../../core/services/portfolio.service';
       height: 300px;
       border-radius: 50%;
       overflow: hidden;
-      opacity: 0.25;
+      opacity: 0.32;
       will-change: transform;
       transform: translateY(-50%);
+      border: 1px solid rgba(237, 231, 220, 0.08);
     }
 
     .about__circle-inner {
       width: 100%;
       height: 100%;
-      background: linear-gradient(135deg, #2E6B72, #E8913C);
+      background: url('/hero-creative-workspace.jpg') center 30% / cover no-repeat;
+      filter: saturate(0.85) contrast(1.05);
+      position: relative;
+    }
+
+    .about__circle-inner::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(46,107,114,0.22), rgba(232,145,60,0.18));
+      mix-blend-mode: overlay;
     }
 
     [appReveal] {
