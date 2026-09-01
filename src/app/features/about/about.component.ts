@@ -94,7 +94,7 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     .about__circle-inner {
       width: 100%;
       height: 100%;
-      background: url('/hero-creative-workspace.jpg') center 30% / cover no-repeat;
+      background: url('/studio-create-passion.png') center 30% / cover no-repeat;
       filter: saturate(0.85) contrast(1.05);
       position: relative;
     }

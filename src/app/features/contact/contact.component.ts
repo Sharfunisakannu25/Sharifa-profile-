@@ -7,6 +7,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <section class="contact" id="contact">
+      <div class="contact__bg" aria-hidden="true">
+        <img src="/studio-create-passion.png" alt="" class="contact__bg-img" />
+      </div>
       <div class="contact__inner">
         <h2 class="contact__headline">Let's create<br>something together.</h2>
         <p class="contact__fine">{{ contactEmail() }}</p>
@@ -38,6 +41,26 @@ import { PortfolioService } from '../../core/services/portfolio.service';
       padding: 160px 0 0;
       position: relative;
       overflow: hidden;
+    }
+
+    .contact__bg {
+      position: absolute;
+      right: -100px;
+      bottom: 80px;
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      overflow: hidden;
+      opacity: 0.12;
+      border: 1px solid rgba(237, 231, 220, 0.08);
+      pointer-events: none;
+    }
+
+    .contact__bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(0.85) contrast(1.05);
     }
 
     .contact__inner {

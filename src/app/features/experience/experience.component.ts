@@ -9,6 +9,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
   imports: [RevealDirective],
   template: `
     <section class="experience" id="experience" aria-label="Work experience">
+      <div class="experience__bg" aria-hidden="true">
+        <img src="/studio-create-passion.png" alt="" class="experience__bg-img" />
+      </div>
       <div class="experience__inner">
         <span class="experience__label" appReveal>Experience</span>
         <div class="experience__table" role="table">
@@ -35,6 +38,29 @@ import { PortfolioService } from '../../core/services/portfolio.service';
       background: #101317;
       padding: 120px 0;
       border-top: 1px solid rgba(237, 231, 220, 0.13);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .experience__bg {
+      position: absolute;
+      left: -60px;
+      top: 50%;
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      overflow: hidden;
+      opacity: 0.15;
+      transform: translateY(-50%);
+      border: 1px solid rgba(237, 231, 220, 0.08);
+      pointer-events: none;
+    }
+
+    .experience__bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(0.85) contrast(1.05);
     }
 
     .experience__inner {

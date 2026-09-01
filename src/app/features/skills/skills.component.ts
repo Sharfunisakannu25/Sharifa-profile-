@@ -9,6 +9,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
   imports: [RevealDirective],
   template: `
     <section class="skills" id="skills">
+      <div class="skills__bg" aria-hidden="true">
+        <img src="/studio-create-passion.png" alt="" class="skills__bg-img" />
+      </div>
       <div class="skills__inner">
         <span class="skills__label" appReveal>Capabilities</span>
         <div class="skills__list">
@@ -32,6 +35,29 @@ import { PortfolioService } from '../../core/services/portfolio.service';
       background: #0A0C0E;
       padding: 120px 0;
       border-top: 1px solid rgba(237, 231, 220, 0.13);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .skills__bg {
+      position: absolute;
+      right: -80px;
+      top: 50%;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      overflow: hidden;
+      opacity: 0.18;
+      transform: translateY(-50%);
+      border: 1px solid rgba(237, 231, 220, 0.08);
+      pointer-events: none;
+    }
+
+    .skills__bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(0.85) contrast(1.05);
     }
 
     .skills__inner {

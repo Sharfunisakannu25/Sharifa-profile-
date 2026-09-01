@@ -45,3 +45,8 @@ Thumbs.db
 
 # Gemini generated images (original with spaces)
 Gemini*.jpg
+
+# keep sanitized hero assets
+!public/hero-creative-workspace.jpg
+!public/studio-create-passion.png
+Gemini*.png

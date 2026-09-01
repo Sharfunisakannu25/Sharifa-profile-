@@ -34,7 +34,7 @@ import { PortfolioService } from '../../core/services/portfolio.service';
         </div>
         <div class="hero__meta hero__meta--bottom">
           <span class="hero__meta-label">AI Video Editor</span>
-          <span class="hero__meta-label">Chennai, India</span>
+          <span class="hero__meta-label">UAE</span>
         </div>
       </div>
     </section>
