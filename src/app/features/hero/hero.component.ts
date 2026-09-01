@@ -137,9 +137,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
       z-index: 20;
       display: flex;
       white-space: nowrap;
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: clamp(48px, 10vw, 140px);
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: clamp(56px, 12vw, 160px);
       text-transform: uppercase;
       color: #EDE7DC;
       will-change: transform, letter-spacing;
@@ -173,18 +173,18 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     }
 
     .hero__meta-label {
-      font-family: 'Sora', sans-serif;
-      font-weight: 400;
-      font-size: 10.5px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: #9EA5A8;
     }
 
     .hero__meta-year {
-      font-family: 'Sora', sans-serif;
-      font-weight: 400;
-      font-size: 10.5px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: #E8913C;

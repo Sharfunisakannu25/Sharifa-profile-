@@ -46,9 +46,9 @@ import { Component, signal, output, HostListener, ChangeDetectionStrategy } from
       margin: 0 auto;
     }
     .nav__wordmark {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 700;
-      font-size: 15px;
+      font-size: 16px;
       letter-spacing: -0.02em;
       color: #EDE7DC;
       text-decoration: none;
@@ -62,9 +62,9 @@ import { Component, signal, output, HostListener, ChangeDetectionStrategy } from
       gap: 32px;
     }
     .nav__link {
-      font-family: 'Sora', sans-serif;
-      font-weight: 400;
-      font-size: 10.5px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #9EA5A8;
@@ -75,9 +75,9 @@ import { Component, signal, output, HostListener, ChangeDetectionStrategy } from
       color: #E8913C;
     }
     .nav__admin-btn {
-      font-family: 'Sora', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 500;
-      font-size: 10.5px;
+      font-size: 11px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #EDE7DC;

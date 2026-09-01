@@ -70,19 +70,19 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     }
 
     .contact__headline {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 700;
-      font-size: clamp(32px, 5vw, 64px);
-      letter-spacing: -0.03em;
+      font-size: clamp(36px, 5.5vw, 72px);
+      letter-spacing: -0.02em;
       color: #EDE7DC;
       line-height: 1.1;
       margin-bottom: 24px;
     }
 
     .contact__fine {
-      font-family: 'Sora', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 400;
-      font-size: 13px;
+      font-size: 14px;
       color: #9EA5A8;
       margin-bottom: 40px;
     }
@@ -171,9 +171,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     }
 
     .contact__wordmark {
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: clamp(100px, 20vw, 280px);
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: clamp(120px, 22vw, 320px);
       text-transform: uppercase;
       color: rgba(237, 231, 220, 0.04);
       text-align: center;

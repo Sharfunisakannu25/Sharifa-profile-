@@ -68,9 +68,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
 
     .skills__label {
       display: block;
-      font-family: 'Sora', sans-serif;
-      font-weight: 400;
-      font-size: 10.5px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: #2E6B72;
@@ -111,9 +111,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     }
 
     .skills__name {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 600;
-      font-size: 16px;
+      font-size: 18px;
       letter-spacing: -0.02em;
       color: #EDE7DC;
     }
@@ -124,9 +124,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     }
 
     .skills__count {
-      font-family: 'Sora', sans-serif;
-      font-weight: 500;
-      font-size: 14px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
       letter-spacing: 0.02em;
       color: #E8913C;
     }

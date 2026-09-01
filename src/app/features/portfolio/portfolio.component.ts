@@ -108,18 +108,18 @@ interface DeckCard {
     }
 
     .portfolio__headline {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 700;
-      font-size: clamp(32px, 4vw, 48px);
-      letter-spacing: -0.03em;
+      font-size: clamp(36px, 4.5vw, 52px);
+      letter-spacing: -0.02em;
       color: #EDE7DC;
       margin-bottom: 20px;
     }
 
     .portfolio__lede {
-      font-family: 'Sora', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 400;
-      font-size: 14px;
+      font-size: 15px;
       line-height: 1.7;
       color: #9EA5A8;
       max-width: 420px;
@@ -235,8 +235,8 @@ interface DeckCard {
     }
 
     .portfolio__card-category {
-      font-family: 'Sora', sans-serif;
-      font-weight: 400;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
       font-size: 10px;
       letter-spacing: 0.15em;
       text-transform: uppercase;
@@ -259,9 +259,9 @@ interface DeckCard {
     }
 
     .portfolio__card-title {
-      font-family: 'Syne', sans-serif;
-      font-weight: 700;
-      font-size: 18px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
       letter-spacing: -0.02em;
       color: #EDE7DC;
       padding: 8px 20px 0;
@@ -269,9 +269,9 @@ interface DeckCard {
     }
 
     .portfolio__card-desc {
-      font-family: 'Sora', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 13px;
       color: #9EA5A8;
       padding: 4px 20px 16px;
       margin: 0;

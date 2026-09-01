@@ -41,9 +41,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
 
     .about__label {
       display: inline-block;
-      font-family: 'Sora', sans-serif;
-      font-weight: 400;
-      font-size: 10.5px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: #E8913C;
@@ -51,10 +51,10 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     }
 
     .about__statement {
-      font-family: 'Syne', sans-serif;
-      font-weight: 700;
-      font-size: clamp(24px, 3.6vw, 52px);
-      letter-spacing: -0.03em;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: clamp(28px, 4vw, 56px);
+      letter-spacing: -0.02em;
       line-height: 1.2;
       color: #EDE7DC;
       max-width: 22ch;
@@ -68,9 +68,9 @@ import { PortfolioService } from '../../core/services/portfolio.service';
       position: absolute;
       top: 120px;
       right: 32px;
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: clamp(80px, 15vw, 200px);
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: clamp(100px, 18vw, 240px);
       -webkit-text-stroke: 1px rgba(237, 231, 220, 0.13);
       color: transparent;
       line-height: 1;
