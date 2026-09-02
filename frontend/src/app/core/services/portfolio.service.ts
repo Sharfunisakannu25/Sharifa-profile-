@@ -64,11 +64,11 @@ export class PortfolioService {
           description: 'Created AI-generated videos and editing reels as part of school projects'
         },
         {
-          role: 'School Media Lead',
-          company: 'School / College',
+          role: 'Freelance Video Editor',
+          company: 'Bab Al Awir',
           startDate: '2023',
           endDate: '2024',
-          description: 'Led video production and editing for school events and functions'
+          description: 'Edited promotional videos and content for company projects'
         },
         {
           role: 'Video Production Volunteer',
