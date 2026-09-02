@@ -20,33 +20,23 @@ export class PortfolioService {
       videos: [
         {
           id: '1',
-          title: 'Neon Dreams',
-          description: 'AI-generated cinematic short exploring neon-lit cityscapes',
-          videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+          title: 'Bab Al Awir',
+          description: 'Freelance video editing project for Bab Al Awir company',
+          videoUrl: 'assets/videos/Bab Al Awir.mp4',
           thumbnailUrl: '',
-          category: 'AI Short Film',
-          year: 2026,
-          duration: '2:15'
+          category: 'Video Editing',
+          year: 2024,
+          duration: ''
         },
         {
           id: '2',
           title: 'Echoes',
           description: 'AI-enhanced music video edit with dynamic transitions',
-          videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+          videoUrl: 'assets/videos/WhatsApp Video.mp4',
           thumbnailUrl: '',
           category: 'AI Music Video',
           year: 2025,
           duration: '3:42'
-        },
-        {
-          id: '3',
-          title: 'Pulse of the City',
-          description: 'Showcase of AI video generation and editing capabilities',
-          videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-          thumbnailUrl: '',
-          category: 'AI Demo Reel',
-          year: 2026,
-          duration: '1:58'
         }
       ],
       skills: [
