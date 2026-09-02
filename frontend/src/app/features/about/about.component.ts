@@ -1,4 +1,4 @@
-import { Component, computed, ElementRef, ViewChild, AfterViewInit, OnDestroy, ChangeDetectionStrategy } from '@angular/core';
+import { Component, computed, ElementRef, AfterViewInit, OnDestroy, ChangeDetectionStrategy } from '@angular/core';
 import { NgZone } from '@angular/core';
 import { RevealDirective } from '../../shared/directives/reveal.directive';
 import { PortfolioService } from '../../core/services/portfolio.service';
@@ -94,7 +94,7 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     .about__circle-inner {
       width: 100%;
       height: 100%;
-      background: url('/studio-create-passion.png') center 30% / cover no-repeat;
+      background: url('/assets/studio-create-passion.png') center 30% / cover no-repeat;
       filter: saturate(0.85) contrast(1.05);
       position: relative;
     }
@@ -127,8 +127,6 @@ import { PortfolioService } from '../../core/services/portfolio.service';
   `]
 })
 export class AboutComponent implements AfterViewInit, OnDestroy {
-  @ViewChild('circle') circleRef!: ElementRef<HTMLElement>;
-
   readonly name = computed(() => this.portfolio.data().name);
   readonly statement = computed(() => this.portfolio.data().bio);
 

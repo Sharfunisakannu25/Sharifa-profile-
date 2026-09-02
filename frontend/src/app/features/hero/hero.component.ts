@@ -10,7 +10,7 @@ import { PortfolioService } from '../../core/services/portfolio.service';
     <section class="hero" #heroSection>
       <div class="hero__stage">
         <div class="hero__image-layer" [style.transform]="imageTransform()">
-          <img src="/hero-creative-workspace.jpg" alt="Sharifa — AI Video Editor at work, dual-monitor editing setup with timeline" class="hero__image" loading="eager" decoding="async" />
+          <img src="/assets/hero-creative-workspace.jpg" alt="Sharifa — AI Video Editor at work, dual-monitor editing setup with timeline" class="hero__image" loading="eager" decoding="async" />
         </div>
         <div class="hero__duotone" [style.opacity]="duotoneOpacity()"></div>
         <div class="hero__veil"></div>

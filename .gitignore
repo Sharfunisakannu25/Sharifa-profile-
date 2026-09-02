@@ -1,52 +1,41 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# Root ignores — frontend has its own .gitignore with Angular specifics
+# See frontend/.gitignore for /dist, /node_modules, /.angular/cache, etc.
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# Keep frontend build artifacts ignored even from root
+/frontend/dist
+/frontend/node_modules
+/frontend/.angular
+/frontend/tmp
+/frontend/out-tsc
 
-# Node
-/node_modules
+# Node logs
 npm-debug.log
 yarn-error.log
 
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# OS
+.DS_Store
+Thumbs.db
 
-# Visual Studio Code
+# IDEs
+.idea/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/mcp.json
-.history/*
+.history/
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+# Coverage & misc
+coverage
 __screenshots__/
 
-# System files
-.DS_Store
-Thumbs.db
+# Gemini generated images (prevent accidental commits)
+/Gemini*.jpg
+/Gemini*.png
+/frontend/Gemini*.jpg
+/frontend/Gemini*.png
 
-# Gemini generated images (original with spaces)
-Gemini*.jpg
-
-# keep sanitized hero assets
-!public/hero-creative-workspace.jpg
-!public/studio-create-passion.png
-Gemini*.png
+# Environment
+.env
+.env.local

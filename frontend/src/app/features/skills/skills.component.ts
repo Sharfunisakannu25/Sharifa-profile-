@@ -10,7 +10,7 @@ import { PortfolioService } from '../../core/services/portfolio.service';
   template: `
     <section class="skills" id="skills">
       <div class="skills__bg" aria-hidden="true">
-        <img src="/studio-create-passion.png" alt="" class="skills__bg-img" />
+        <img src="/assets/studio-create-passion.png" alt="" class="skills__bg-img" />
       </div>
       <div class="skills__inner">
         <span class="skills__label" appReveal>Capabilities</span>

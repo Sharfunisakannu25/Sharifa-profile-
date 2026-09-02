@@ -8,7 +8,7 @@ import { PortfolioService } from '../../core/services/portfolio.service';
   template: `
     <section class="contact" id="contact">
       <div class="contact__bg" aria-hidden="true">
-        <img src="/studio-create-passion.png" alt="" class="contact__bg-img" />
+        <img src="/assets/studio-create-passion.png" alt="" class="contact__bg-img" />
       </div>
       <div class="contact__inner">
         <h2 class="contact__headline">Let's create<br>something together.</h2>
